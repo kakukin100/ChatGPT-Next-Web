@@ -126,8 +126,8 @@ export const DEFAULT_MODELS = [
       providerType: "openai",
     },
   },
-  {
-    name: "gpt-4-0314",
+    {
+    name: "gpt-4o",
     available: true,
     provider: {
       id: "openai",
@@ -135,8 +135,8 @@ export const DEFAULT_MODELS = [
       providerType: "openai",
     },
   },
-  {
-    name: "gpt-4-0613",
+    {
+    name: "gpt-4-mini",
     available: true,
     provider: {
       id: "openai",
@@ -144,6 +144,7 @@ export const DEFAULT_MODELS = [
       providerType: "openai",
     },
   },
+
   {
     name: "gpt-4-32k",
     available: true,
